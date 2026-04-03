@@ -1,1 +1,23 @@
-# Books-Recommender-system
+# Books-Recommender-System
+
+# How to run?
+### STEPS:
+
+Clone the repository
+
+```bash
+https://github.com/maitriishahh/Books-Recommender-System.git
+```
+### STEP 01 - Create a conda environment after opening the repository
+
+```bash
+conda create -n venv python==3.13.5 -y
+```
+
+```bash
+conda activate venv
+```
+### STEP 02 - Install the requirements
+```bash
+pip install -r requirements.txt
+```

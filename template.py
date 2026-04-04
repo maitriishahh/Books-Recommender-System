@@ -29,7 +29,8 @@ list_of_files = [
     ".dockerignore",
     "app.py",
     "Dockerfile",
-    "setup.py"
+    "setup.py",
+    "config/config.yaml"
 ]
 
 for filepath in list_of_files:

@@ -57,9 +57,9 @@ class DataValidation:
             logging.info(f" Shape of the final clean dataset: {final_rating.shape}")
                         
             # Saving the cleaned data for transformation
-            os.makedirs(self.data_validation_config.clean_data, exist_ok=True)
-            final_rating.to_csv(os.path.join(self.data_validation_config.clean_data,'clean_data.csv'), index = False)
-            logging.info(f"Saved cleaned data to {self.data_validation_config.clean_data}")
+            os.makedirs(self.data_validation_config.clean_data_dir, exist_ok=True)
+            final_rating.to_csv(os.path.join(self.data_validation_config.clean_data_dir,'clean_data.csv'), index = False)
+            logging.info(f"Saved cleaned data to {self.data_validation_config.clean_data_dir}")
 
 
             #saving final_rating objects for web app

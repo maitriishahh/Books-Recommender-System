@@ -1,5 +1,15 @@
 # Books-Recommender-System
 
+## Workflow:
+Update:
+- config.yaml
+- entity/config_entity.py
+- config/configuration.py
+- components
+- pipeline/training_pipeline.py
+- main.py
+- app.py
+
 # How to run?
 ### STEPS:
 

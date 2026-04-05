@@ -31,3 +31,8 @@ conda activate venv
 ```bash
 pip install -r requirements.txt
 ```
+
+Now run,
+```bash
+stramlit run app.py
+```
